@@ -1,0 +1,50 @@
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-gradient-to-b from-[#0a2d8f] to-[#071f63]">
+    <div class="mx-auto max-w-7xl px-6">
+        <div class="flex h-16 items-center justify-between">
+
+            <a href="index.html" class="text-xl font-semibold tracking-wide hover:font-bold transition">
+                David Zhang
+            </a>
+
+            <div class="hidden md:flex space-x-8 text-lg">
+                <a href="experience.html" class="font-medium hover:font-bold transition">
+                    Experience
+                </a>
+                <a href="projects.html" class="font-medium hover:font-bold transition">
+                    Projects
+                </a>
+                <a href="contact.html" class="font-medium hover:font-bold transition">
+                    Contact
+                </a>
+            </div>
+
+            <!-- Hamburger -->
+            <button id="menu-btn" class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden pb-4">
+            <div class="flex flex-col gap-3 text-lg">
+                <a href="experience.html" class="hover:font-bold transition">Experience</a>
+                <a href="projects.html" class="hover:font-bold transition">Projects</a>
+                <a href="contact.html" class="hover:font-bold transition">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile menu toggle -->
+<script>
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+</script>

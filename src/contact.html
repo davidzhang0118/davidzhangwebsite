@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Zhang | Contact</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png" />
+</head>
+
+<body class="min-h-screen flex flex-col bg-gradient-to-b from-slate-950 to-slate-800 text-white">
+
+    <div id="nav-placeholder"></div>
+
+    <!-- Page Header -->
+    <header class="py-12 text-center border-b border-white/10">
+        <h1 class="text-4xl font-bold">
+            Contact Me
+        </h1>
+    </header>
+
+    <main class="flex-grow w-full max-w-screen-xl mx-auto px-3 sm:px-6 lg:px-10 py-16">
+
+        <div class="mx-auto max-w-2xl text-center">
+            <div class="mt-2 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="mailto:davidzhang118@outlook.com" class="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-6 py-3 font-semibold
+                text-white shadow-lg transition hover:bg-emerald-500">
+                    <i class="fa-solid fa-envelope"></i>
+                    Contact
+                </a>
+
+                <a href="./assets/David_Zhang_Website.pdf" download="David_Zhang_Resume" class="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-600 px-6 py-3 font-semibold
+                text-white shadow-lg transition hover:bg-sky-500">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    Resume
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-10 rounded-2xl border border-white/10 bg-white/5 p-3 shadow-lg">
+            <embed src="./assets/David_Zhang_Website.pdf" type="application/pdf"
+                class="w-full h-[85vh] min-h-[750px] rounded-xl bg-black/20" />
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $("#nav-placeholder").load("nav.html");
+        $("#footer-placeholder").load("footer.html");
+    </script>
+
+</body>
+
+</html>

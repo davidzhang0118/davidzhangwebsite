@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Zhang</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png" />
+</head>
+
+<body class="min-h-screen flex flex-col bg-gradient-to-b from-slate-950 to-slate-800 text-white">
+
+    <div id="nav-placeholder"></div>
+
+    <!-- Page Header -->
+    <header class="py-12 text-center border-b border-white/10">
+        <h1 class="text-4xl font-bold">
+            Experience
+        </h1>
+    </header>
+
+    <main class="flex-grow mx-auto max-w-7xl px-6 py-16">
+
+        <div class="relative">
+            <!-- vertical line -->
+            <div class="absolute left-4 top-0 h-full w-px bg-white/10"></div>
+
+            <div class="relative pl-12 pb-10">
+
+                <div class="absolute left-4 top-3 h-3 w-3 -translate-x-1/2 rounded-full bg-sky-400"></div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
+                    <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                CS314 Data Structures Undergraduate Course Assistant (UGCA)
+                            </h3>
+                            <p class="text-sm text-slate-400">Currently on my 4th semester</p>
+                        </div>
+                        <p class="text-sm text-slate-400">Fall 2024 – Present</p>
+                    </div>
+
+                    <ul class="mt-4 space-y-2 text-slate-300 list-disc pl-5">
+                        <li>Lead a weekly discussion section composed of 20+ students on lecture content and section
+                            problems</li>
+                        <li>Assist students with project debugging, algorithm efficiency, and code hygiene in help hours
+                        </li>
+                        <li>Answered 750+ student questions on Ed Discussion, providing detailed explanations of course
+                            material</li>
+                        <li>Grade and review weekly Java programming assignments and exams</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="relative pl-12 pb-10">
+
+                <div class="absolute left-4 top-3 h-3 w-3 -translate-x-1/2 rounded-full bg-sky-400"></div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
+
+                    <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Amazon Web Services - Software Development Engineer (Embedded) Intern
+                            </h3>
+                            <p class="text-md text-slate-300">
+                                Baseboard Management Controller (BMC) Firmware for AWS AI/ML Accelerator and Compute
+                                Servers
+                            </p>
+                        </div>
+                        <p class="text-sm text-slate-400">May - August 2025</p>
+                    </div>
+
+                    <ul class="mt-4 space-y-2 text-slate-300 list-disc pl-5">
+                        <li>Built automated test infrastructure to ensure vendor firmware updates did not regress BMC
+                            functionality</li>
+                        <li>Built a CI pipeline to install vendor firmware on test hosts and run validation tests</li>
+                        <li>Implemented the firmware installation workflow in Python</li>
+                        <li>Wrote integration tests using pytest to validate firmware behavior on NVIDIA GB200 platforms
+                        </li>
+                        <li>Wrote Lua tests that run directly on the BMC to verify core firmware behavior</li>
+                        <li>Automated checks that were previously done manually, reducing validation time by days</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="relative pl-12 pb-10">
+                <div class="absolute left-4 top-3 h-3 w-3 -translate-x-1/2 rounded-full bg-sky-400"></div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
+                    <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+                        <h3 class="text-xl font-semibold">
+                            Database Mart LLC - Systems Engineering Intern (Irving, TX)
+                        </h3>
+                        <p class="text-sm text-slate-400">July – August 2024</p>
+                    </div>
+
+                    <ul class="mt-4 space-y-2 text-slate-300 list-disc pl-5">
+                        <li>Assembled, upgraded, and maintained servers (motherboard to CPU installations)</li>
+                        <li>Installed and maintained servers/server racks in data centers, ensuring uptime</li>
+                        <li>Participated in DBM Generative AI Challenge (June – August 2024)</li>
+                    </ul>
+
+                    <div class="mt-4 rounded-xl border border-white/10 bg-slate-950/40 p-4">
+                        <p class="font-semibold text-slate-200">DBM Generative AI Challenge</p>
+                        <ul class="mt-2 space-y-2 text-slate-300 list-disc pl-5">
+                            <li>Explored GenAI applications and created ideas to address real-world problems</li>
+                            <li>Developed a business plan for a potential Generative AI startup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $("#nav-placeholder").load("nav.html");
+        $("#footer-placeholder").load("footer.html");
+    </script>
+
+</body>
+
+</html>
