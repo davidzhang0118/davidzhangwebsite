@@ -47,45 +47,81 @@
                 </div>
             </a> -->
 
-            <!-- Card (not clickable yet) -->
-            <!-- <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
+            <!-- Card -->
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
                 <div class="flex items-start justify-between gap-4">
-                    <h2 class="text-xl font-semibold">Coming Soon</h2>
-                    <span class="text-slate-400">
+                    <h2 class="text-xl font-semibold">Ed Discussion Board Q&A Website</h2>
+                    <!-- <span class="text-slate-400">
                         <i class="fa-regular fa-clock"></i>
-                    </span>
+                    </span> -->
                 </div>
 
-                <p class="mt-3 text-slate-400">
-                    Placeholder for your next project. Swap this card into a link when ready.
-                </p>
-
-                <div class="mt-5 flex flex-wrap gap-2">
-                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">C++</span>
-                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">Robotics</span>
-                </div>
-            </div> -->
-
-            <!-- Another clickable card -->
-            <!-- <a href="#" class="group block rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg transition
-                        hover:-translate-y-1 hover:bg-white/10 hover:border-white/20">
-                <div class="flex items-start justify-between gap-4">
-                    <h2 class="text-xl font-semibold">Another Project</h2>
-                    <span class="text-slate-400 group-hover:text-slate-200 transition">
-                        <i class="fa-solid fa-link"></i>
-                    </span>
-                </div>
-
-                <p class="mt-3 text-slate-400">
-                    Short description. You can link this to a demo page or a PDF write-up.
-                </p>
+                <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
+                    <li>Designed a website enabling CS314 TAs to reference past practice exam Q&As from Ed</li>
+                    <li>Leveraged the Ed Discussion API to fetch and aggregate past exam questions and answers</li>
+                    <li>Integrated GPT-4 to standardize question title formatting and store Q&A entries in SQLite</li>
+                    <li>Built dynamic, form-driven pages using Spring Boot MVC, Thymeleaf, and Bootstrap</li>
+                </ul>
 
                 <div class="mt-5 flex flex-wrap gap-2">
                     <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">Java</span>
-                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">Data Structures</span>
-                </div> -->
-            <!-- </a> -->
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">HTML/CSS</span>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
+                <div class="flex items-start justify-between gap-4">
+                    <div>
+                        <h2 class="text-xl font-semibold">Operating System</h2>
+                        <p class="text-sm text-slate-300">
+                            Class project
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
+                    <li>Engineered a preemptive, multi-threaded C++ kernel for an x86 multi-core SMP system, later
+                        transitioning it to cooperative multithreading</li>
+                    <li>Implemented synchronization primitives including semaphores, locks, barriers, and promises</li>
+                    <li>Built memory management support including strong and weak pointers, virtual memory, and
+                        user-level system calls</li>
+                    <li>Implemented read-only support for the Ext2 file system and integrated it with virtual memory
+                    </li>
+                    <li>Integrated a UDP networking stack, including socket APIs, the UDP/IP layer, and a NIC driver
+                    </li>
+                </ul>
+
+                <div class="mt-5 flex flex-wrap gap-2">
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">C++</span>
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">x86</span>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg">
+                <div class="flex items-start justify-between gap-4">
+                    <div>
+                        <h2 class="text-xl font-semibold">FreeB's iOS App</h2>
+                        <p class="text-sm text-slate-300">
+                            Class project | No planned release
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
+                    
+                </ul>
+
+                <div class="mt-5 flex flex-wrap gap-2">
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">Swift</span>
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">Xcode</span>
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200">Firebase</span>
+                </div>
+            </div>
+
         </div>
+
     </main>
 
     <div id="footer-placeholder"></div>
